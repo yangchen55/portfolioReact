@@ -1,8 +1,10 @@
 import React from 'react'
 import { Col, Container, Row} from 'react-bootstrap'
 import heroImg2 from '../assets/anime.jpg'
+import { Layout } from './Layout'
 export const AboutMe = () => {
   return (
+    <Layout>
     <Container id="about-me" className="aboutme section">
     <section className="container mt-3 py-5">
       <div className="title">
@@ -20,5 +22,6 @@ export const AboutMe = () => {
       </Row>
     </section>
   </Container>
+  </Layout>
   )
 }

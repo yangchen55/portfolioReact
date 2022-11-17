@@ -1,11 +1,14 @@
 import React from 'react'
-
+import { Container } from 'react-bootstrap'
+import {Row, Col} from "react-bootstrap"
+import { Layout } from './Layout'
 export const Skills = () => {
   return (
-    <div  id="skills" className="skill section">
-    <div className="container py-3 mb-5">
-      <div className="row">
-        <div className="col">
+    <Layout>
+    <Container  id="skills" className="container py-3 mb-5">
+  
+      <Row>
+        <Col>
           <div className="title text-center fs-1 fw-bolder mt-5 mb-5">
             <span>skills</span>
           </div>
@@ -16,9 +19,10 @@ export const Skills = () => {
             <div><i className="fa-brands fa-square-js text-danger"></i>javascript</div>
             <div><i className="fa-brands fa-figma text-"></i>figma</div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
+        </Col>
+      </Row>
+    
+  </Container>
+  </Layout>
   )
 }

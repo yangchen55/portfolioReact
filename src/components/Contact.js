@@ -1,7 +1,9 @@
 import React from 'react'
+import { Layout } from './Layout'
 
 export const Contact = () => {
   return (
+    <Layout>
     <div id ="contact" className=" container contact rounded-5 px-5">
         <div className="title text-center fs-1 fw-bolder mt-5 mb-5">
             <span style={{border:"none ;"}}>contact me</span>
@@ -16,5 +18,6 @@ export const Contact = () => {
               
        
             </div>
+            </Layout>
   )
 }
