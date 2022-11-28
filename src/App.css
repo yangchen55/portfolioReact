@@ -61,3 +61,18 @@
     bottom: 100px;
     right: 20px;
   }
+  .top-nav{
+    background: linear-gradient(
+      180deg,
+      #83b692 39.06%,
+      rgba(194, 219, 97, 0.459375) 99.97%,
+      rgba(112, 113, 65, 0.342187) 99.98%,
+      rgba(202, 157, 194, 0.295313) 99.99%,
+      rgba(217, 217, 217, 0) 100%
+    );
+
+  }
+
+  .layout{
+    min-height: 75vh;
+  }

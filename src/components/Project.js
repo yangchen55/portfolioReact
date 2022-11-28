@@ -1,8 +1,10 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import { Layout } from './Layout'
 
 export const Project = () => {
   return  (
+    <Layout>
     <div id ="projects" className="project section">
         <div className="projects py-5"> 
           
@@ -83,6 +85,7 @@ export const Project = () => {
 
           </div>
           </div>
+     </Layout>
         
 
 

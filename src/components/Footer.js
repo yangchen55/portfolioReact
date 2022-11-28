@@ -6,7 +6,7 @@ export const Footer = () => {
 
         <div className="footer">
         <div className="container py-5 mt-5">
-        copy right ©️ all reserved.| made (●'◡'●)with passion
+        copy right ©️ all reserved.| made (●'◡'●)with passion fruit
 
       </div>
       {/* <!-- play ground --> */}
