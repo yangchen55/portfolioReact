@@ -1,20 +1,25 @@
 import React from 'react'
+import contact from '../assets/contact.PNG'
 
 export const Footer = () => {
   return (
     <div>
 
         <div className="footer">
-        <div className="container py-5 mt-5">
-        copy right ©️ all reserved.| made (●'◡'●)with passion fruit
-
+        <div className="container py-3 mt-3">
+       
+       
+       
+        <img src={contact}  width="10%" />  &nbsp;  &nbsp;
+        copy right ©️ all reserved 2022 || Tsering 
+        
       </div>
-      {/* <!-- play ground --> */}
+      </div>
+     
+     
    
-    </div>
-       <a href="#hero" className="goup" id="goup">
-        <i className="fa-solid fa-solid fa-circle-up fa-3x text-primary"></i>
-      </a>
+   
+       
     </div>
   )
 }

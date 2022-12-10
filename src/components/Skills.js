@@ -2,9 +2,9 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import {Row, Col} from "react-bootstrap"
 import { Layout } from './Layout'
-export const Skills = () => {
+export const Skills = ({changeTheme}) => {
   return (
-    <Layout>
+    <Layout changeTheme={changeTheme}> 
     <Container  id="skills" className="container py-3 mb-5">
   
       <Row>
@@ -18,6 +18,7 @@ export const Skills = () => {
             <div><i className="fa-brands fa-css3-alt text-primary"></i>CSS</div>
             <div><i className="fa-brands fa-square-js text-danger"></i>javascript</div>
             <div><i className="fa-brands fa-figma text-"></i>figma</div>
+            <div><i className="fa-brands fa-react text-primary App-logo"></i>react</div>
           </div>
         </Col>
       </Row>

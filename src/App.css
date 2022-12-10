@@ -1,13 +1,13 @@
 .hero {
     min-height: 60vh;
-    background: linear-gradient(
+    /* background: linear-gradient(
       180deg,
       #83b692 39.06%,
       rgba(194, 219, 97, 0.459375) 99.97%,
       rgba(112, 113, 65, 0.342187) 99.98%,
       rgba(202, 157, 194, 0.295313) 99.99%,
       rgba(217, 217, 217, 0) 100%
-    );
+    ); */
   }
   
   .title {
@@ -21,22 +21,21 @@
     padding: 0 1rem;
     border-bottom: 0.3rem solid yellowgreen;
   }
-  
-  .icons {
-    font-size: 5rem;
+ .icons {
+    font-size: 3rem;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
   }
   .icons i {
-    font-size: 5rem;
+    font-size: 3rem;
   }
   .icons div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 1.5rem;
-  }
+    font-size: 2rem;
+  } */ */
   
   .projects {
     background: rgba(190, 168, 170, 0.24);
@@ -44,17 +43,13 @@
     /* min-height: 500vh; */
   }
   
-  .contact {
-    background: #d72483;
-    background-blend-mode: darken;
-    /* border-radius: 30px; */
-  }
+  
   
   .footer {
-    background-color: black;
+    background:#0A6D70;
     color: white;
     min-height: 100px;
-    text-align: center;
+    /* text-align: center; */
   }
   .goup {
     position: fixed;
@@ -62,17 +57,59 @@
     right: 20px;
   }
   .top-nav{
-    background: linear-gradient(
-      180deg,
-      #83b692 39.06%,
-      rgba(194, 219, 97, 0.459375) 99.97%,
-      rgba(112, 113, 65, 0.342187) 99.98%,
-      rgba(202, 157, 194, 0.295313) 99.99%,
-      rgba(217, 217, 217, 0) 100%
-    );
+    background-color: #5EB1BF;
+    color: white;
+    font-size: large;
+   
 
   }
 
   .layout{
     min-height: 75vh;
   }
+
+  
+  .projectImage{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.011), 0 6px 20px 0 rgba(0, 0, 0, 0.029);
+   width: 70%;
+
+  }
+  
+
+/* react animation */
+.App-logo {
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* //////////////////// about me  section  */
+.aboutmeImg{
+  background-color: #0A6D70;
+  border-radius: 50%;
+  box-shadow: 5px 10px 3px 2xp rgb(153, 20, 20);
+}
+
+.aboutme{
+  background:linear-gradient(rgba(182, 143, 188, 0.046), rgba(65, 65, 113, 0.08));
+
+  clip-path: polygon(0% 0%, 100% 0, 100% 54%, 75% 100%, 0% 100%);
+  
+
+
+}

@@ -9,6 +9,8 @@ import { Project } from './components/Project';
 import { AboutMe } from './components/AboutMe';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
+import {useState} from 'react'
+import "./Styles/theme.scss";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -19,18 +21,26 @@ import {
 } from "react-router-dom";
 
 function App() {
+
+
+const [theme, setTheme] = useState('light');
+const changeTheme =() => {
+    theme === "light" ? setTheme('dark') :  setTheme('light')
+   
+}
   
   return (
-    <div class="wrapper"> 
-
+    <>
+  
+  <div className={theme}> 
 <BrowserRouter>
   <Routes>
 
-    <Route path ="/" index element ={<Hero />} />
-    <Route path ="skills" index element ={<Skills />} />
-    <Route path ="projects" index element ={<Project />} />
-    <Route path ="about-me" index element ={<AboutMe />} />
-    <Route path ="contact" index element ={<Contact/>} />
+    <Route path ="/" index element ={<Hero changeTheme={changeTheme} />} />
+    <Route path ="skills" index element ={<Skills changeTheme={changeTheme}/>} />
+    <Route path ="projects" index element ={<Project changeTheme={changeTheme} />} />
+    <Route path ="about-me" index element ={<AboutMe changeTheme={changeTheme}/>} />
+    <Route path ="contact" index element ={<Contact changeTheme={changeTheme}/>} />
 
   </Routes>
   </BrowserRouter>
@@ -39,6 +49,7 @@ function App() {
       
  
       </div>
+      </>
  
   )
 

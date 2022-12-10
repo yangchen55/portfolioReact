@@ -1,0 +1,37 @@
+.dark {
+  background-color: black;
+  color: white;
+}
+.dark .projectIcon a {
+  text-align: center;
+  padding: 30px;
+  font-size: 3rem;
+  color: #F4E04D;
+}
+.dark .projectIcon a:hover {
+  color: rgb(238, 233, 226);
+}
+.dark .contact {
+  background: rgba(198, 217, 159, 0.9333333333);
+  background-blend-mode: darken;
+  /* border-radius: 30px; */
+}
+
+.light {
+  color: black;
+  background-color: #FCFCFC;
+}
+.light .projectIcon a {
+  text-align: center;
+  padding: 30px;
+  font-size: 3rem;
+  color: #54F2F2;
+}
+.light .projectIcon a:hover {
+  color: rgb(238, 233, 226);
+}
+.light .contact {
+  background: rgba(173, 86, 132, 0.1803921569);
+  background-blend-mode: darken;
+  /* border-radius: 30px; */
+}/*# sourceMappingURL=theme.css.map */

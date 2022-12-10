@@ -1,0 +1,63 @@
+.hero {
+  min-height: 60vh;
+  background: linear-gradient(
+    180deg,
+    #83b692 39.06%,
+    rgba(194, 219, 97, 0.459375) 99.97%,
+    rgba(112, 113, 65, 0.342187) 99.98%,
+    rgba(202, 157, 194, 0.295313) 99.99%,
+    rgba(217, 217, 217, 0) 100%
+  );
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 3rem;
+  font-weight: bolder;
+  margin-bottom: 3rem;
+}
+.title span {
+  padding: 0 1rem;
+  border-bottom: 0.3rem solid yellowgreen;
+}
+
+.icons {
+  font-size: 5rem;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+.icons i {
+  font-size: 5rem;
+}
+.icons div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.projects {
+  background: rgba(190, 168, 170, 0.24);
+  background-blend-mode: darken;
+  /* min-height: 500vh; */
+}
+
+.contact {
+  background: #d72483;
+  background-blend-mode: darken;
+  /* border-radius: 30px; */
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  min-height: 100px;
+  text-align: center;
+}
+.goup {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+}
