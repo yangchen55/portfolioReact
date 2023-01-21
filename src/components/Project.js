@@ -9,7 +9,7 @@ export const Project = ({changeTheme}) => {
   return  (
     <Layout changeTheme={changeTheme}> 
     <div id ="projects" className="project section">
-        <div className="projects py-5"> 
+    <div className="container mt-3 py-5">
           
           <Container>
             <div className="title text-center fs-1 fw-bolder mt-5 mb-5">
@@ -28,16 +28,16 @@ export const Project = ({changeTheme}) => {
                 <Col md="6">
                   <div className= "container">
                   <div>
-                  <h2> Movie Collection </h2>
+                  <h2> Movies' Desk </h2>
                   <div className='projectIcon'>
                     <a href="#! " target="_blank"><i className="fa-brands fa-square-github"></i></a>
                     <a href="#!" target="_blank"><i className="fa-brands fa-chrome"></i></a>
                   </div>
                   <p className="mt-2">
-                    Tech used: html5, css3, bootstrap, react , rest api
+                    <h3> Tech used:</h3> HTML5, CSS3, Bootstrap, React and  Rest API
                   </p>
                   <p>
-                    In this project, with the assitance of movie api, user can easily search movie via names.The user can add the movies to their prefered list either <strong> Happy List </strong> or <strong> Sad List </strong>
+                    In this project, with the assitance of movie api, user can easily search movie via movie's title.The user can add the movies to their prefered list either <strong> Happy List </strong> or <strong> Sad List. </strong> If going  with design, it is obviously responsive.
                   </p>
                   
                   </div>
@@ -60,10 +60,11 @@ export const Project = ({changeTheme}) => {
                     <a href=" " target="_blank"><i className="fa-brands fa-chrome"></i></a>
                   </div>
                   <p className="mt-2">
-                    Tech used: html5, css3, react, javascript, bootstrap
+                    Tech used: Html5, CSS3, React, Javascript, Bootstrap
                   </p>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem velit odit illum deleniti facilis iusto consequatur quasi! Tempore, ut? Error necessitatibus, reprehenderit nemo rerum provident reiciendis fugiat suscipit aliquam! Maiores.
+                    In this project,  designing calculater's functionalities  is main motive
+                     with with sense of humour by pranking the user with some of the results.
                   </p>
                   </div>
                 </Col>
@@ -82,10 +83,10 @@ export const Project = ({changeTheme}) => {
                     <a href=" " target="_blank"><i className="fa-brands fa-chrome"></i></a>
                   </div>
                   <p className="mt-2">
-                    tech used: html5, css3, bootstrap, node, react, javascript
+                    Tech used: html5, css3, bootstrap, node, react, javascript
                   </p>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem velit odit illum deleniti facilis iusto consequatur quasi! Tempore, ut? Error necessitatibus, reprehenderit nemo rerum provident reiciendis fugiat suscipit aliquam! Maiores.
+                    Not to do Application is such application that track a week of things that user has been done with accurate hours. Consequently, the user can comprehend how many hours are being quality and rest are being rest fruitful in a week.
                   </p>
                   </div>
 
