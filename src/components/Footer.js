@@ -3,13 +3,10 @@ import contact from "../assets/contact.PNG";
 
 export const Footer = () => {
   return (
-    <div>
-      <div className="footer">
-        <div className="container py-3 mt-3">
-          <img src={contact} width="10%" /> &nbsp; &nbsp; ©️ all reserved 2022
-          || Tsering
-        </div>
-      </div>
+    <div className="d-flex justify-content-center  p-5 footer">
+      {/* <img src={contact} width="10%" /> */}
+      &nbsp; ©️ All Rights Reserved &nbsp;
+      {new Date().getFullYear()} &nbsp; Tsering 🌱
     </div>
   );
 };
