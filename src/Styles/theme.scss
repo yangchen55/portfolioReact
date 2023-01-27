@@ -1,57 +1,40 @@
 @import "../Variables/variable.scss";
 
+.dark {
+  background-color: $darkback;
+  color: $lighttext;
 
-
-
-.dark{ 
-    background-color:$darkback;;
-    color:$lighttext;
-
-    .projectIcon a{
-        text-align: center;
-        padding: 30px;
-        font-size: 3rem;
-        color: #F4E04D;
-        
-      }
-      .projectIcon a:hover{
-        color: rgb(238, 233, 226);
-    
-      }
-      .contact {
-        background: #c6d99fee;
-        background-blend-mode: darken;
-        
-        /* border-radius: 30px; */
-      }
-    
-
-
+  .projectIcon a {
+    text-align: center;
+    padding: 30px;
+    font-size: 3rem;
+    color: #f4e04d;
+  }
+  .projectIcon a:hover {
+    color: rgb(238, 233, 226);
+  }
+  .contact {
+    background: #c6d99fee;
+    background-blend-mode: darken;
+  }
 }
 
-.light{
-    color:$darktext;
-    background-color: $lightback;
-    
-    .projectIcon a{
-        text-align: center;
-        padding: 30px;
-        font-size: 3rem;
-        color: #54F2F2;
-        
-      }
-      .projectIcon a:hover{
-        color: rgb(238, 233, 226);
-    
-      }
+.light {
+  color: $darktext;
+  background-color: $lightback;
 
-      .contact {
-        background: #ad56842e;
-        background-blend-mode: darken;
-        /* border-radius: 30px; */
-      }
+  .projectIcon a {
+    text-align: center;
+    padding: 30px;
+    font-size: 3rem;
+    color: #54f2f2;
+  }
+  .projectIcon a:hover {
+    color: rgb(238, 233, 226);
+  }
 
-        
-    
+  .contact {
+    background: #ad56842e;
+    background-blend-mode: darken;
+  }
 }
-

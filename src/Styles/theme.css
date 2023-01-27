@@ -1,12 +1,12 @@
 .dark {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.816);
   color: white;
 }
 .dark .projectIcon a {
   text-align: center;
   padding: 30px;
   font-size: 3rem;
-  color: #F4E04D;
+  color: #f4e04d;
 }
 .dark .projectIcon a:hover {
   color: rgb(238, 233, 226);
@@ -14,7 +14,6 @@
 .dark .contact {
   background: rgba(198, 217, 159, 0.9333333333);
   background-blend-mode: darken;
-  /* border-radius: 30px; */
 }
 
 .light {
@@ -25,7 +24,7 @@
   text-align: center;
   padding: 30px;
   font-size: 3rem;
-  color: #54F2F2;
+  color: #54f2f2;
 }
 .light .projectIcon a:hover {
   color: rgb(238, 233, 226);
@@ -33,5 +32,4 @@
 .light .contact {
   background: rgba(173, 86, 132, 0.1803921569);
   background-blend-mode: darken;
-  /* border-radius: 30px; */
 }/*# sourceMappingURL=theme.css.map */

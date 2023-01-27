@@ -41,13 +41,11 @@
 .projects {
   background: rgba(190, 168, 170, 0.24);
   background-blend-mode: darken;
-  /* min-height: 500vh; */
 }
 
 .contact {
   background: #d72483;
   background-blend-mode: darken;
-  /* border-radius: 30px; */
 }
 
 .footer {

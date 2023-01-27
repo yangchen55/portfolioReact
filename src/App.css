@@ -1,13 +1,5 @@
 .hero {
   min-height: 60vh;
-  /* background: linear-gradient(
-      180deg,
-      #83b692 39.06%,
-      rgba(194, 219, 97, 0.459375) 99.97%,
-      rgba(112, 113, 65, 0.342187) 99.98%,
-      rgba(202, 157, 194, 0.295313) 99.99%,
-      rgba(217, 217, 217, 0) 100%
-    ); */
 }
 
 .title {
@@ -36,16 +28,14 @@
   align-items: center;
   font-size: 2rem;
 }
-*/ */ .projects {
+.projects {
   background: rgba(190, 168, 170, 0.24);
   background-blend-mode: darken;
-  /* min-height: 500vh; */
 }
 
 .footer {
   background: #0a6d70;
   color: white;
-  /* min-height: 100px; */
 }
 .goup {
   position: fixed;
@@ -68,7 +58,6 @@
   width: 70%;
 }
 
-/* react animation */
 .App-logo {
   pointer-events: none;
 }
@@ -88,7 +77,6 @@
   }
 }
 
-/* //////////////////// about me  section  */
 .aboutmeImg {
   background-color: #0a6d70;
   border-radius: 50%;
