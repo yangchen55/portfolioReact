@@ -1,24 +1,38 @@
 import React from 'react'
 import { Col, Container, Row} from 'react-bootstrap'
 import heroImg2 from '../assets/anime.jpg'
-export const AboutMe = () => {
+import { Layout } from './Layout'
+export const AboutMe = ({changeTheme}) => {
   return (
-    <Container id="about-me" className="aboutme section">
+    <Layout changeTheme={changeTheme}> 
+    <Container id="about-me" className="aboutme">
     <section className="container mt-3 py-5">
       <div className="title">
-        <span> about me</span>
+        <span> About me</span>
       </div>
       
-      <Row>
-        <Col className="col-md-5 mb-5">
-          <img src={heroImg2}width="70%" /></Col>
-        <Col className="col-md-7">
+      <Row className='md-5 '>
+      <Col >
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident suscipit quas aperiam optio est laudantium voluptate maxime doloribus, iusto id. Quia vitae quos rerum officia similique aliquam exercitationem molestiae iusto.
-          </p> 
-          </Col>
+            <h1> Who am I ?</h1>
+
+            Hello, I am <strong> Tsering, a software Developer </strong> based in Sydney, Australia, who is experience in taking <strong>full stack applications</strong>  from scracth to production.
+      
+            </p> 
+            <p>
+            I am currently pursuing Master in computer  science with machine learning Specialization in  <strong>University of wollongong </strong>.
+          </p>
+         
+        </Col>
+        <Col >
+        <div className='aboutmeImgCover'>
+          <img  className='aboutmeImg' src={heroImg2} width="400px" />
+          </div>
+        </Col>
+       
       </Row>
     </section>
   </Container>
+  </Layout>
   )
 }
