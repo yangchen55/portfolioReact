@@ -34,7 +34,7 @@
 }
 
 .footer {
-  background: #0a6d70;
+  background: #292a2ae2;
   color: white;
 }
 .goup {
@@ -90,4 +90,26 @@
   );
 
   clip-path: polygon(0% 0%, 100% 0, 100% 54%, 75% 100%, 0% 100%);
+}
+
+/* contact section  */
+.horizontal {
+  border-bottom: 1px solid grey; /* creates a 1-pixel-thick black line */
+  width: 20%; /* sets the width of the line to 50% of the container */
+}
+.section{
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+}
+.section > p> a> i:hover {
+ font-size:xx-large;
+
+
+
+}
+.contact-input-form{
+  margin: 10px;
+ font-family: "Times New Roman", Times, serif;
+
+
 }
