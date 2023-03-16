@@ -2,17 +2,16 @@ import React from 'react'
 import { Footer } from './Footer'
 import { Topnav } from './Topnav'
 
-export const Layout = ({children, changeTheme}) => {
+export const Layout = ({ children, changeTheme }) => {
   return (
     <div>
-      <Topnav changeTheme={changeTheme}/>
+      <Topnav changeTheme={changeTheme} />
       <div className="layout">
-
-      {children}
+        {children}
       </div>
 
-      
-       <Footer/>
+
+      <Footer />
 
     </div>
   )

@@ -42,15 +42,25 @@
   bottom: 100px;
   right: 20px;
 }
-.top-nav {
-  background-color: #5eb1bf;
-  color: white;
-  font-size: large;
-}
 
 .layout {
   min-height: 75vh;
 }
+.top-nav{
+  position: sticky;
+  background-color: #40656c;
+  color: white;
+  font-size: large;
+  font-family: "Playfair Display";
+}
+
+.ab{
+   color: rgba(255, 255, 255, 0.387) !important;
+
+}
+
+
+
 
 .projectImage {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.011),
@@ -113,3 +123,4 @@
 
 
 }
+

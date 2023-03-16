@@ -30,10 +30,10 @@ export const Skills = ({ changeTheme }) => {
             <i className="fa-brands fa-node"></i>Node
           </Col>
           <Col>
-            <i className="fa-brands fa-sql App-logo"></i>react
+            <i className="fa-brands fa-bootstrap" /> bootstrap
           </Col>
         </Row>
       </Container>
-    </Layout>
+    </Layout >
   );
 };
