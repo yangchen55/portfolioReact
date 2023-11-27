@@ -1,0 +1,28 @@
+.App {
+  margin: none;
+}
+.mainContent {
+  text-align: justify;
+  color: gray;
+}
+
+.occupation {
+  color: #2a5d1c;
+}
+
+.footer {
+  border-top: 2px #67b152 solid;
+  color: black;
+}
+
+.projects {
+  position: relative;
+  display: inline-block;
+  background-color: rgb(202, 209, 209);
+}
+
+.projects img {
+  width: 80%;
+  height: auto;
+  display: block;
+}
