@@ -33,6 +33,13 @@
   display: flex;
   margin-top: 20px;
 }
+
+@media (max-width: 400px) {
+  .button-greeting-div {
+    flex-direction: column; /* Stack children vertically */
+  }
+}
+
 .download-link-button {
   text-decoration: none;
 }
